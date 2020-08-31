@@ -1,0 +1,96 @@
+/* Variables */
+/* Global */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Londrina Solid", cursive;
+  color: #435261;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.navigation {
+  height: 100vh;
+  padding: 20px 0;
+  background-image: url("images.pexels.com/photos/7112/woman-typing-writing-windows.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.navigation-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.brand-title {
+  color: gold;
+  font-family: "Lato", sans-serif;
+  font-style: oblique;
+}
+
+.navigation-menu ul li {
+  display: inline-block;
+}
+
+.navigation-menu ul li a {
+  text-decoration: none;
+  font-family: "Londrina Solid", cursive;
+  color: #ffffff;
+  padding: 0 25;
+}
+
+.navigation-menu ul li a:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Splash */
+.splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.splash-inner .splash-inner .page-title {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.splash-inner .splash-inner .page-title .splash-inner .page-subtitle {
+  font-family: "Londrina Solid", cursive;
+  color: #ffffff;
+  font-style: cursive;
+  font-size: 50px;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: "Londrina Solid", cursive;
+}
+/*# sourceMappingURL=style.css.map */
