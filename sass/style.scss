@@ -1,0 +1,99 @@
+/* Variables */
+
+$text-light: #ffffff;
+$text-main: #435261;
+$text-header: #000000;
+
+$color-gold: gold;
+$color-grey: #b4b4b4;
+
+$font-title: 'Lato', sans-serif;
+$font-main: 'Londrina Solid', cursive;
+
+/* Global */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: $font-main;
+    color: $text-main;
+}
+section {
+    padding: 96px 0;
+}
+    .container {
+        max-width: 1140px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+/* Navigation */
+.navigation {
+    height: 100vh;
+    padding: 20px 0;
+    background-image: url('images.pexels.com/photos/7112/woman-typing-writing-windows.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+    .navigation-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .brand-title {
+            color: $color-gold;
+            font-family: $font-title;
+            font-style: oblique;
+        }
+        .navigation-menu ul li {
+            display: inline-block;
+                a {
+                    text-decoration: none;
+                    font-family: $font-main;
+                    color: $text-light;
+                    padding: 0 25;
+                }
+        }
+            .navigation-menu ul li a:hover {
+                background: $text-light;
+                color: $text-header;
+            }
+
+/* Splash */
+
+.splash-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    .splash-inner .page-title {
+        font-family: $font-title;
+        font-size: 35px;
+        font-style: italic;
+        color: $text-light;
+        .splash-inner .page-subtitle {
+            font-family: $font-main;
+            color: $text-light;
+            font-style: cursive;
+            font-size: 50px;
+        }
+    }
+}
+    .btn {
+        text-decoration: none;
+        font-family: $font-main;
+        color: $text-light;
+        background: $color-gold;
+        padding: 30px 35px;
+        font-size: 28px;
+        font-weight: bold;
+        border 2px $text-header solid;
+        border-radius: 10px;
+    }
