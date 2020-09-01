@@ -75,14 +75,14 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.splash-inner .splash-inner .page-title {
+.splash-inner .page-title {
   font-family: "Lato", sans-serif;
   font-size: 35px;
   font-style: italic;
   color: #ffffff;
 }
 
-.splash-inner .splash-inner .page-title .splash-inner .page-subtitle {
+.splash-inner .page-subtitle {
   font-family: "Londrina Solid", cursive;
   color: #ffffff;
   font-style: cursive;
@@ -92,5 +92,154 @@ section {
 .btn {
   text-decoration: none;
   font-family: "Londrina Solid", cursive;
+  color: #ffffff;
+  background: gold;
+  padding: 30px 35px;
+  font-size: 28px;
+  font-weight: bold;
+  border: 2px #000000 solid;
+  border-radius: 10px;
+}
+
+/* Services */
+.container h1, p {
+  text-align: center;
+}
+
+.container h1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: #435261;
+}
+
+.container p {
+  font-style: italic;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  color: #b4b4b4;
+}
+
+.card-body h3 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.card-body p {
+  text-align: center;
+  color: #b4b4b4;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-image i {
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  color: gold;
+  background: #ffffff;
+  width: 80px;
+  height: 80px;
+  border: gold 2px solid;
+  border-radius: 45%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+/* Portfolio */
+.portfolio {
+  background: #ffffff;
+}
+
+.portfolio .card-body {
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  border: 1px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 22px;
+}
+
+/* Footer */
+.footer {
+  background: #ffffff;
+}
+
+.footer-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.footer .footer-company {
+  font-size: 14px;
+  font-family: "Londrina Solid", cursive;
+  font-weight: bold;
+  color: #435261;
+}
+
+.footer .social-links ul li {
+  display: inline-block;
+  font-size: 0;
+}
+
+.footer .social-links ul li a {
+  text-decoration: none;
+}
+
+.footer .social-links ul li i {
+  font-size: 36px;
+  color: #435261;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .navigation-menu ul li a {
+    padding: 0;
+  }
+  .wrapper {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .splash-inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .splash-inner .page-title {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .splash-inner .page-subtitle {
+    font-size: 40px;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
