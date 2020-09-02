@@ -18,7 +18,7 @@ section {
 
 .container {
   max-width: 1140px;
-  padding: 20px;
+  padding: 20px 20px;
   margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ section {
 .navigation {
   height: 100vh;
   padding: 20px 0;
-  background-image: url("images.pexels.com/photos/7112/woman-typing-writing-windows.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -98,7 +98,7 @@ section {
   font-size: 28px;
   font-weight: bold;
   border: 2px #000000 solid;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
 /* Services */
@@ -110,7 +110,7 @@ section {
   color: #000000;
   font-weight: bold;
   font-size: 38px;
-  font-family: #435261;
+  font-family: "Londrina Solid", cursive;
 }
 
 .container p {
@@ -194,7 +194,7 @@ section {
 }
 
 .footer .footer-company {
-  font-size: 14px;
+  font-size: 22px;
   font-family: "Londrina Solid", cursive;
   font-weight: bold;
   color: #435261;

@@ -34,7 +34,7 @@ section {
 .navigation {
     height: 100vh;
     padding: 20px 0;
-    background-image: url('images.pexels.com/photos/7112/woman-typing-writing-windows.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-image: url('https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -96,7 +96,7 @@ section {
         font-size: 28px;
         font-weight: bold;
         border: 2px $text-header solid;
-        border-radius: 10px;
+        border-radius: 7px;
     }
 
 /* Services */
@@ -107,7 +107,7 @@ section {
         color: $text-header;
         font-weight: bold;
         font-size: 38px;
-        font-family: $text-main;
+        font-family: $font-main;
     }
         .container p{
             font-style: italic;
@@ -170,7 +170,7 @@ section {
         align-items: center;
     }
         .footer .footer-company {
-            font-size: 14px;
+            font-size: 22px;
             font-family: $font-main;
             font-weight: bold;
             color: $text-main;
