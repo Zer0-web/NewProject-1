@@ -58,7 +58,8 @@ section {
   text-decoration: none;
   font-family: "Londrina Solid", cursive;
   color: #ffffff;
-  padding: 0 25;
+  padding: 0 25px;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F;
 }
 
 .navigation-menu ul li a:hover {
