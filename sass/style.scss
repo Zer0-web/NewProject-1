@@ -129,16 +129,16 @@ section {
     }
 .card-image {
     text-align: center;
-    i{
-        display:flex;
+        i {
+        display: flex;
         text-align: center;
         font-size: 40px;
         color: $color-gold;
         background: $text-light;
-        width: 80px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
         border: $color-gold 2px solid;
-        border-radius: 45%;
+        border-radius: 30%;
         justify-content: center;
         align-items: center;
     }

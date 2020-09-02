@@ -145,10 +145,10 @@ section {
   font-size: 40px;
   color: gold;
   background: #ffffff;
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   border: gold 2px solid;
-  border-radius: 45%;
+  border-radius: 30%;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
