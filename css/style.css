@@ -45,9 +45,11 @@ section {
 }
 
 .brand-title {
-  color: gold;
-  font-family: "Lato", sans-serif;
+  color: #f1c40f;
+  font-family: 'Lobster', cursive;
   font-style: oblique;
+  text-shadow: #d35400 2px -2px;
+  font-size: 30px;
 }
 
 .navigation-menu ul li {

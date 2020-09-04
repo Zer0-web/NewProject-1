@@ -47,9 +47,12 @@ section {
         align-items: center;
     }
         .brand-title {
-            color: $color-gold;
-            font-family: $font-title;
+            color: #f1c40f;
+            font-family: 'Lobster', cursive;
             font-style: oblique;
+            text-shadow: #d35400 2px -2px;
+            font-size: 30px;
+
         }
         .navigation-menu ul li {
             display: inline-block;
