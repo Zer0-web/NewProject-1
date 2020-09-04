@@ -48,8 +48,8 @@ section {
   color: #f1c40f;
   font-family: 'Lobster', cursive;
   font-style: oblique;
-  text-shadow: #d35400 2px -2px;
-  font-size: 30px;
+  text-shadow: #d35400 3px 3px;
+  font-size: 60px;
 }
 
 .navigation-menu ul li {
@@ -61,7 +61,8 @@ section {
   font-family: "Londrina Solid", cursive;
   color: #ffffff;
   padding: 0 25px;
-  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F;
+  text-shadow: #d35400 2px 2px;
+  font-size: 28px;
 }
 
 .navigation-menu ul li a:hover {
@@ -79,10 +80,11 @@ section {
 }
 
 .splash-inner .page-title {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lobster', cursive;
   font-size: 35px;
   font-style: italic;
   color: #ffffff;
+  text-shadow: #d35400 3px 3px;
 }
 
 .splash-inner .page-subtitle {
